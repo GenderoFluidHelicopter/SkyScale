@@ -1,0 +1,29 @@
+.navPanel {
+  position: relative;
+  width: 100; 
+  height: 15%; 
+  background-color: #777; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; 
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.barButton{
+  position: relative;
+  text-decoration: none;
+  font-size: large;
+  color: rgb(27, 26, 25);
+  width: 20%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.barButton:hover{
+  color: white;
+  background-color: #aaa;
+}
