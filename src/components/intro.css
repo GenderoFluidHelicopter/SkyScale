@@ -8,11 +8,75 @@
 
 .image-container {
     /* position: relative; */
-    display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     width: auto;
     height: 500px; /* Выберите высоту, которую вы хотите для фона */
     background: url('../imgs/doposle.png') no-repeat center center;
     margin-left: 50px;
   }
+
+  .Mainboard {
+    margin: 0 auto;
+
+  }
+  
+
+  
+  .Mainboard {
+
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .Mainboard .content {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    height: 1000px;
+  }
+  
+  .roundsidebar {
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+    background-color: blueviolet;
+  }
+  
+  ul {
+    list-style: square;
+  }
+  
+  table {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid blueviolet;
+  }
+  
+  td {
+    border: solid 1px rgba(206, 154, 255, 0.76);
+  }
+  
+  tbody tr:nth-child(odd) {
+    width: 50%;
+    background-color: lightgray;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  .noUi-target {
+    width: 300px; /* 设置滑块的宽度 */
+    margin-left: 10vw;
+  }
+
+.git {
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
