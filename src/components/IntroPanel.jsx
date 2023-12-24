@@ -16,7 +16,7 @@ export default function MainPanel() {
       It's not just a upscale app; it's a content upgrader of your life.
       </p>
       </div>
-
+      <div className='parent'>
       <h2 className="subtitle">Models</h2>
       <p>We use an ensemble of models that are selected based on the user's key task</p>
       
@@ -24,13 +24,17 @@ export default function MainPanel() {
       <p id="demo">This is an example of what we intend to present:</p>
       <div className='image-container'>
                 </div>
+                </div>
 
+        <div className='parent'>
         <h2 className="subtitle">Try for free:</h2>
 
         <Link to="/pgs">
       <button className='button_upscale1'>Click here for trial</button>
         </Link>
-        
+        </div>
+
+        <div className='parent'>
       <h2 className="subtitle">Our models:</h2>
       <table>
             <thead>
@@ -52,6 +56,9 @@ export default function MainPanel() {
                 </tr>
             </tbody>
         </table>
+        </div>
+
+        <div className='parent'>
        <div className='git'>
       <h2>Our own</h2>
       <h3><a href="https://github.com/moksyasha/SkyScale">
@@ -60,7 +67,8 @@ export default function MainPanel() {
       <h3><a href="https://github.com/GenderoFluidHelicopter/skyscale">
           This pages
       </a></h3>
-      </div> 
+      </div>
+      </div>
     </div>
     )
   }

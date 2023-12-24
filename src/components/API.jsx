@@ -2,6 +2,7 @@ import React from "react";
 import ReactOpenApiRenderer from "@tx-dts/react-openapi-renderer";
 import "@tx-dts/react-openapi-renderer/dist/index.css";
 import { useEffect, useState } from "react";
+import "./intro.css";
 
 const API = () => {
     const [spec, setSpec] = useState(null)
@@ -22,8 +23,10 @@ const API = () => {
     if (!spec){
         return(null)
     }
-    return (<div className="content">
+    return (<div className="Mainboard">
+        <div className="parent1">
         <ReactOpenApiRenderer specification={spec}  />
+        </div>
     </div>);
 }
 
