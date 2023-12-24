@@ -1,9 +1,11 @@
 import React from 'react';
 import "./intro.css";
+import { Link } from 'react-router-dom'
 
 export default function MainPanel() {
     return (
     <div className="Mainboard">
+        <div className='parent'>
     <h1>SkyScale</h1>
             <h2>Upscaling the world</h2>
       <p>
@@ -13,6 +15,7 @@ export default function MainPanel() {
       <br></br>
       It's not just a upscale app; it's a content upgrader of your life.
       </p>
+      </div>
 
       <h2 className="subtitle">Models</h2>
       <p>We use an ensemble of models that are selected based on the user's key task</p>
@@ -22,14 +25,13 @@ export default function MainPanel() {
       <div className='image-container'>
                 </div>
 
-      <h2 className="subtitle">Our advantages:</h2>
-      <ul>
-          <li>Quality</li>
-          <li>Capacity</li>
-          <li>Speed</li>
-          <li>For free trial</li>
-          <li>не придумал</li>
-      </ul>
+        <h2 className="subtitle">Try for free:</h2>
+
+        <Link to="/pgs">
+      <button className='button_upscale1'>Click here for trial</button>
+        </Link>
+        
+      <h2 className="subtitle">Our models:</h2>
       <table>
             <thead>
                 <td>Example</td>

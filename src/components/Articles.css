@@ -1,0 +1,8 @@
+p {
+    text-align: left;
+}
+.arab {
+    align-items: stretch;
+    display: flex;
+    flex-direction:row;
+}

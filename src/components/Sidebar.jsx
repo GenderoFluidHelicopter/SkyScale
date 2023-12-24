@@ -43,6 +43,12 @@ const Sidebar = () => {
         <NavLink className="barButton" to="/api" activeClassName="active">
           <p>API</p>
         </NavLink>
+        <NavLink className="barButton" to="/pgs" activeClassName="active">
+          <p>Demonstration</p>
+        </NavLink>
+        <NavLink className="barButton" to="/art" activeClassName="active">
+          <p>Articles</p>
+        </NavLink>
         <SearchComponent
         onSearchButtonClick={handleSearchButtonClick}
         onSearchClose={handleSearchClose}
