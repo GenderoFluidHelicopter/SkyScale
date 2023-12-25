@@ -47,7 +47,7 @@ const Sidebar = () => {
           <p>Demonstration</p>
         </NavLink>
         <NavLink className="barButton" to="/art" activeClassName="active">
-          <p>Articles</p>
+          <p>Documentation</p>
         </NavLink>
         <SearchComponent
         onSearchButtonClick={handleSearchButtonClick}
